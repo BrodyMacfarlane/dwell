@@ -19,8 +19,105 @@ body {
   margin: auto;
 }
 
+@keyframes car {
+  0% {
+    right: -110%;
+  }
+
+  30% {
+    right: -110%;
+  }
+
+  65% {
+    right: 131px;
+  }
+
+  70% {
+    right: 129px;
+  }
+}
+
+@keyframes farBush {
+  0% {
+    transform: scaleY(0);
+    transform: scaleX(0);
+  }
+
+  20% {
+    transform: scaleY(0);
+    transform: scaleX(1);
+  }
+
+  30% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes windmill {
+  0% {
+    top: 120px;
+  }
+  70% {
+    top: -120px;
+  }
+}
+
+@keyframes closeBush {
+  0% {
+    transform: scaleX(0)
+  }
+
+  15% {
+    transform: scaleX(1)
+  }
+}
+
+@keyframes house {
+  0% {
+    top: -500px;
+  }
+
+  10% {
+    top: -500px;
+  }
+
+  30% {
+    top: -81px;
+  }
+}
+
+@keyframes dwell {
+  0% {
+    left: -1000px;
+  }
+
+  70% {
+    left: -1000px;
+  }
+
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes accommodations {
+  0% {
+    right: -1000px;
+  }
+
+  70% {
+    right: -1000px;
+  }
+
+  100% {
+    right: 0px;
+  }
+}
+
 .anisvg {
   position: absolute;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
 }
 
 .car {
@@ -28,6 +125,8 @@ body {
   width: 85px;
   top: 35px;
   right: 129px;
+  animation-name: car;
+  animation-timing-function: ease-out;
 }
 
 .whitebox {
@@ -41,6 +140,7 @@ body {
 .close-bush {
   z-index: 5;
   width: 427px;
+  animation-name: closeBush;
 }
 
 .house {
@@ -48,6 +148,8 @@ body {
   width: 234px;
   top: -81px;
   left: 18px;
+  animation-name: house;
+  animation-timing-function: ease-in;
 }
 
 .windmill {
@@ -55,6 +157,7 @@ body {
   width: 196px;
   right: 40px;
   top: -120px;
+  animation-name: windmill;
 }
 
 .far-bush {
@@ -62,4 +165,28 @@ body {
   width: 435px;
   top: -50px;
   left: 27px;
+  animation-name: farBush;
+}
+
+.brand {
+  position: absolute;
+  z-index: 10;
+  top: 410px;
+  width: 100%;
+  text-align: center;
+}
+
+.one-fitty-seven {
+  position: relative;
+  width: 157px;
+  animation-timing-function: ease-out;
+  animation-duration: 1.5s;
+}
+
+.dwell {
+  animation-name: dwell;
+}
+
+.accommodations {
+  animation-name: accommodations;
 }

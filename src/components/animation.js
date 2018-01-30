@@ -7,6 +7,8 @@ import closeBush from '../assets/closeBush.svg'
 import house from '../assets/house.svg'
 import windmill from '../assets/windmill.svg'
 import farBush from '../assets/farBush.svg'
+import dwell from '../assets/dwell.svg'
+import accommodations from '../assets/accommodations.svg'
 
 // const yCurve = new MojsCurveEditor()
 
@@ -38,6 +40,11 @@ export default class Animation extends Component {
             <img src={house} className="house anisvg"/>
             <img src={windmill} className="windmill anisvg"/>
             <img src={farBush} className="far-bush anisvg"/>
+          </div>
+          <div className="brand">
+            <img src={dwell} className="dwell one-fitty-seven"/>
+            <br />
+            <img src={accommodations} className="accommodations one-fitty-seven"/>
           </div>
         </div>
       );
