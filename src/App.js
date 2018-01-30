@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Animation from './components/animation'
+import Navbar from './components/navbar'
+import Landing from './components/landing'
 import './css/animation.css'
 
 class App extends Component {
@@ -17,10 +19,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Navbar/>
         <div className={`animation-component ${this.state.isAnimating ? null : 'goine'}`}>
           <Animation/>
         </div>
-        <div>WOOOOOOOOO ACTUAL SITE WILL GO HERE</div>
+        <Landing/>
       </div>
     );
   }

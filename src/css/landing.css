@@ -1,0 +1,21 @@
+@font-face {
+  font-family: minimalust;
+  src: url("../assets/font/minimalust.otf");
+}
+
+.landing-container, .intro {
+  width: 100%;
+  height: 100%;
+}
+
+.intro {
+  height: 80%;
+  background-image: url('../assets/img/intro-room.jpg');
+  background-size: cover;
+}
+
+.intro-room {
+  font-family: minimalust;
+  font-size: 30px;
+  padding: 20px;
+}

@@ -1,14 +1,11 @@
 import React, { Component } from 'react'
-import mojs from 'mo-js'
-import MojsPlayer from 'mojs-player'
-import MojsCurveEditor from 'mojs-curve-editor'
-import car from '../assets/car.svg'
-import closeBush from '../assets/closeBush.svg'
-import house from '../assets/house.svg'
-import windmill from '../assets/windmill.svg'
-import farBush from '../assets/farBush.svg'
-import dwell from '../assets/dwell.svg'
-import accommodations from '../assets/accommodations.svg'
+import car from '../assets/img/car.svg'
+import closeBush from '../assets/img/closeBush.svg'
+import house from '../assets/img/house.svg'
+import windmill from '../assets/img/windmill.svg'
+import farBush from '../assets/img/farBush.svg'
+import dwell from '../assets/img/dwell.svg'
+import accommodations from '../assets/img/accommodations.svg'
 
 // const yCurve = new MojsCurveEditor()
 
